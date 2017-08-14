@@ -1,7 +1,0 @@
-com\blibli\AcceptanceTestSuite.class
-com\blibli\pages\DictionaryPage$1.class
-com\blibli\pages\DictionaryPage.class
-com\blibli\steps\DefinitionSteps.class
-com\blibli\steps\serenity\EndUserSteps.class
-com\blibli\behaviour\BlibliHomePageBehaviour.class
-com\blibli\pages\BlibliHomePage.class

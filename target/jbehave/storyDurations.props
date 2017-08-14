@@ -1,6 +1,0 @@
-#org.jbehave.core.embedder.StoryManager
-#Mon Aug 14 18:23:16 ICT 2017
-stories/consult_dictionary/BlibliLogin.story=251000
-threads=1
-total=251000
-threadAverage=251000
