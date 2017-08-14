@@ -30,18 +30,23 @@ public class BlibliHomePage extends PageObject {
     @FindBy(id = "gdn-submit-login-label")
     private WebElementFacade alreadyLoginUser;
 
+    //input search field
     @FindBy(name = "s")
     private WebElementFacade searchInput;
 
+    //button search
     @FindBy(id="gdn-search-button")
     private WebElementFacade buttonSearch;
 
+    //gojek skip button
     @FindBy(xpath = "//*[@id=\"blibli-main-ctrl\"]/section/div/div[4]/nav/div[2]/button")
     private WebElementFacade buttonSkipGojek;
 
+    //get from list -> product detail
     @FindBy(xpath = "//*[@id=\"catalogProductListContentDiv\"]/div[1]/div/a/div")
     private WebElementFacade buttonToGetProductDetails;
 
+    //button to add card
     @FindBy(id = "gdn-buy-now-top")
     private WebElementFacade buttonAddToCart;
 
@@ -53,10 +58,11 @@ public class BlibliHomePage extends PageObject {
     @FindBy(id = "gdn-next-step")
     private  WebElementFacade buttonContinueChoosePayment;
 
-    //isi payment
+    //milih payment
     @FindBy(id= "gdn-payment-option-KlikBCA")
     private WebElementFacade buttonChooseKlikBcaForm;
 
+    //fill klikbca userid
     @FindBy(xpath = "//*[@id=\"payment_userid\"]")
     private  WebElementFacade inputPaymentUserId;
 
