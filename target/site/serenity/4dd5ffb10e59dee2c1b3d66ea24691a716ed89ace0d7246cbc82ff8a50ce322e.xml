@@ -1,0 +1,42 @@
+<acceptance-test-run title="Go to blibli site and login" name="Go to blibli site and login" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="144809" timestamp="2017-08-14T18:19:04.728+07:00" session-id="85816e91-a914-427c-974e-1516923d2a8a">
+  <user-story id="BlibliLogin" name="Blibli login" path="stories/consult_dictionary/BlibliLogin.story"/>
+  <tags>
+    <tag name="Consult dictionary" type="feature"/>
+    <tag name="Consult dictionary/Blibli login" type="story"/>
+  </tags>
+  <test-group name="Given open home page" result="SUCCESS">
+    <screenshots>
+      <screenshot image="e9ea10678530861c51e293f91d931903.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="23801">
+      <screenshots>
+        <screenshot image="e9ea10678530861c51e293f91d931903.png"/>
+      </screenshots>
+      <description>Open</description>
+    </test-step>
+  </test-group>
+  <test-group name="When I login to Blibli" result="SUCCESS">
+    <screenshots>
+      <screenshot image="5662d8a1b1fa9d543fc4a185f5788239.png"/>
+      <screenshot image="c4277efd9e2833e83cf1a3f5247f27cc.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="5201">
+      <screenshots>
+        <screenshot image="cee0b4f94b4f2c95525a27737712eb29.png"/>
+        <screenshot image="713657d59674c75c8aab10ce76d0ecc9.png"/>
+      </screenshots>
+      <description>Click user login</description>
+    </test-step>
+  </test-group>
+  <test-group name="Then I can see muy name in the site" result="SUCCESS">
+    <screenshots>
+      <screenshot image="7f255a3755b50466f85e5c472f5f70fb.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="1637">
+      <screenshots>
+        <screenshot image="7f255a3755b50466f85e5c472f5f70fb.png"/>
+      </screenshots>
+      <description>Check user already loggedin</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>
