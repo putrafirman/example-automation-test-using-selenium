@@ -5,4 +5,4 @@ Blibli Future Program Day 2.
 mvn clean verify
 
 # Hoe to check result
-Go to /target/site/index.html
+Go to /target/site/serenity/index.html
